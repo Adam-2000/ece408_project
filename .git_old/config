@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/illinois-impact/ece408_project.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "2021fa"]
+	remote = origin
+	merge = refs/heads/2021fa
